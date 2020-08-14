@@ -1,0 +1,24 @@
+﻿@{
+ViewData["Title"] = "Home Page";
+} 
+
+<div class="main-area">
+    <div class="top-pt">
+        <h6>Fullness: @ViewBag.Fullness </h6>
+        <h6>Happiness: @ViewBag.Happiness </h6>
+        <h6>Meal: @ViewBag.Energy </h6>
+        <h6>Energy: @ViewBag.Meal </h6>
+    </div>
+
+    <div class="dog-area">
+
+        <img src="~/img/dog.png" alt="dog">
+        <p>@ViewBag.Caption</p>
+
+    </div>
+
+    <div class="bottom-pt">
+        <a class="btn btn-outline-light btn-block" href="/reset">Restart?</a>
+    </div>
+
+</div>

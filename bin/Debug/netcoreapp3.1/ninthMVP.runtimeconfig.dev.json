@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\lydel\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\lydel\\.nuget\\packages"
+    ]
+  }
+}
